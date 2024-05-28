@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.search button {
+  background: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.search button img {
+  width: 24px;
+  height: 24px;
+}
+
+.error {
+  display: block;
+  color: #ff4b4b;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.weather {
+  display: block;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px auto;
+}
+
+.temp {
+  font-size: 48px;
+  margin: 10px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.city {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+}
+
+.col img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.col div {
+  text-align: left;
+}
+
+.humidity, .wind {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  margin: 0;
+}
